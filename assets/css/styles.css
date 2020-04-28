@@ -2,12 +2,16 @@
 body{
 	font-family:sans-serif;
 }
+h1{
+  color: #2e627b
+}
 .divider-small{
 	display: block;
     width: 61px;
     height: 3px;
     background: #66c07a;
-    margin: auto;
+    background: #256786;
+    margin: 0 auto 22px;
 }
 
 /*===========home==============*/
@@ -102,44 +106,61 @@ h1{
 	width: 100%;
 	overflow: hidden;
 }
-#cabecera{
-	display: block;
+#sitios-web #cabecera {
+    display: block;
+    background: #f3f3f3;
+    background-image: url(../img/banner_sitios_web.png);
+    height: 505px;
+    background-size: contain;
+    /* background: no-repeat; */
+    background-attachment: fixed;
+    padding: 60px 0 0 0;
+    text-align: center;
 }
-#cabecera img{
+
+#sitios-web #cabecera h1{
+  color: #fff;
+  text-align: center;
+}
+#sitios-web #cabecera p{
+  display: block;
+  max-width: 500px;
+  text-align: center;
+  margin: auto;
+  color: #fff;
+  font-size: 14px
+}
+#sitios-web #cabecera a{
+  margin: 10px 0;
+  color: #fff;
+  border:#fff 1px solid;
+}
+
+#sitios-web #cabecera img{
 	display: block;
 	width: 100%;
 	margin-top: -20px
 }
 #sitios-web{
-	background-color: #f3f3f3;
+	
 }
 #sitios-web h1{
 	font-weight: bold;
 }
-#cotizacion{
-	margin: 10px 0 50px 0;
-}
-#cotizacion .col-md-3 {
-    padding: 0;
-}
-#cotizacion input {
-    border-radius: 0
-}
-#cotizacion input:hover {
-    border-radius: 0;
-}
-#cotizacion .container {
-    max-width: 800px;
-    display: block;
-    margin:auto;
-}
+
 
 
 /**/
 
 #planes{
-	max-width: 900px;
 	margin:100px auto 0;
+  background: #f3f3f3;
+  padding: 50px 0
+}
+#planes .container{
+  max-width: 900px;
+  display: block;
+
 }
 #planes h2{
 	font-weight: bold;
@@ -177,8 +198,6 @@ h1{
 }
 
 #proyectos-web{
-	margin-top: 100px;
-	background: #f3f3f3;
 	padding: 60px 0;
 }
 #proyectos-web h1{
@@ -190,9 +209,31 @@ h1{
 	font-weight: bold;
 }
 
+#cotizacion{
+  background: #f3f3f3;
+  padding: 50px 0
+}
+
+#cotizacion{
+  
+}
+#cotizacion .col-md-3 {
+    padding: 0;
+}
+#cotizacion input {
+    border-radius: 0
+}
+#cotizacion input:hover {
+    border-radius: 0;
+}
+#cotizacion .container {
+    max-width: 800px;
+    display: block;
+    margin:auto;
+}
 
 #tecnologia{
-	margin-top: 50px;
+  padding: 0 0 70px 0
 }
 
 #tecnologia img{
@@ -201,7 +242,6 @@ h1{
 }
 
 #cotizacion-partial{
-	margin: 80px 0 0 0;
 	background-color: #f3f3f3;
 	padding: 50px 0;
 }
@@ -209,6 +249,7 @@ h1{
 	max-width: 640px;
 	margin: auto;
 }
+
 
 /*===============aplicaciones======================================*/
 #aplicaciones{
@@ -221,4 +262,65 @@ h1{
 #aplicaciones #cabecera img{
 	display: block;
 	width: 100%;
+}
+
+/*========================contacto==========================*/
+
+#contacto #cabecera {
+    display: block;
+    background: #f3f3f3;
+    background-image: url(../img/banner_contacto.jpg);
+    height: 505px;
+    background-size: contain;
+    /* background: no-repeat; */
+    background-attachment: fixed;
+    padding: 120px 0 0 0 
+}
+
+#contacto #cabecera h1 {
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 60px;
+  border-bottom: 2px #fff solid;
+  max-width: 350px;
+  margin: 110px auto 0;
+
+}
+#contacto .dato{
+  text-align: center;
+      text-align: center;
+    background: #f3f3fe;
+    padding: 34px 14px;
+}
+
+#contacto .dato .icono{
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  margin: auto;
+  text-align: center;
+}
+#contacto .dato .icono i{
+  font-size: 50px
+}
+#datos-contacto .container{
+  max-width: 900px
+}
+
+#form-contacto{
+  background: #f0faffdb;
+  margin: 50px 0 0 0;
+  padding: 0 0 60px 0;
+  background-image: url('../img/fondo/lineas.png');
+}
+
+#form-contacto .container{
+  max-width: 800px
+}
+.maps iframe{
+  display: block;
+  width: 100%;
+  height: 400px
 }

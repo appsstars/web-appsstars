@@ -1,35 +1,16 @@
 <?php require_once 'layouts/header.php'; ?>
-<div class="contenido">
+<div class="contenido" id="sitios-web">
 	<div class="web">
 		<div class="row" id="cabecera">
 			<div class="col-md-12">
-				<img src="assets/img/banner_sitios_web.jpg" alt="Sitios web y plataformas" >
+				<h1>EXPERTOS EN DESARROLLO WEB</h1>
+				<p>
+Diseños de paginas web, tiendas virtuales, ecommerce, paginas informativas y blog atractivos, optimizados, personalizados, ademas de ser administrables. </p>
+			<a href="" class="btn btn-outline-info text-center button-center">Pedir cotizacion</a>
 			</div>
 		</div>
 
-		<section id="cotizacion">
-			<div class="container">
-				<h3 class='text-center'>Quieres estar en linea y no sabes como!!</h3>
-				<h4 class='text-center'><small>Dejanos tus datos y nosotros te ayudamos...</small></h4>
-				<form action="">
-					<div class="row">
-						<div class="col-md-3">
-							<input type="text" placeholder="Nombres" class='form-control'>
-						</div>
-						<div class="col-md-3">
-							<input type="text" placeholder="Correo" class='form-control'>
-						</div>
-						<div class="col-md-3">
-							<input type="text" placeholder="WhatsApp" class='form-control'>
-						</div>
-						<div class="col-md-3">
-							<input type="submit" class="btn btn-outline-primary btn-block" value="Enviar">
-						</div>
-					</div>
-				</form>
-			</div>
-				
-		</section>
+		
 
 
 		<section class="row" id="sitios-web">
@@ -170,6 +151,30 @@
 			</div>
 		</section>
 
+		<section id="cotizacion">
+			<div class="container">
+				<h3 class='text-center'>Quieres estar en linea y no sabes como!!</h3>
+				<h4 class='text-center'><small>Dejanos tus datos y nosotros te ayudamos...</small></h4>
+				<form action="">
+					<div class="row">
+						<div class="col-md-3">
+							<input type="text" placeholder="Nombres" class='form-control'>
+						</div>
+						<div class="col-md-3">
+							<input type="text" placeholder="Correo" class='form-control'>
+						</div>
+						<div class="col-md-3">
+							<input type="text" placeholder="WhatsApp" class='form-control'>
+						</div>
+						<div class="col-md-3">
+							<input type="submit" class="btn btn-outline-primary btn-block" value="Enviar">
+						</div>
+					</div>
+				</form>
+			</div>
+				
+		</section>
+
 		<section id="tecnologia">
 			<div class="container">
 				<div class="row">
@@ -177,9 +182,16 @@
 						<h1 class='text-center'>HERAMIENTAS DE  <span>DESARROLLO</span></h1>
 						<h4 class='text-center'>¡Usamos lo mejor para tu proyecto!.</h4>
 					</div>
-					<div class="col-md-1" *ngFor='let c of code'>
-						<img src="assets/img/code/{{c.url_img}}" alt="{{c.name}}">
-					</div>
+					<script src="assets/js/code.js"></script>
+					<script>
+						for (var i = 0; i < code.length; i++) {
+							var img = '<div class="col-md-1">\
+										<img src="assets/img/code/'+code[i]['url_img']+'" alt="{{c.name}}">\
+									</div>'
+							document.write(img);
+						}
+					</script>
+									
 				</div>
 			</div>
 		</section>
