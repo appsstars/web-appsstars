@@ -40,7 +40,7 @@
 			  		<h1 class="text-center text-info"><b>AGENCIA</b></h1>
 			  	</div>
 			    <div class="col-md-4">
-			      <div class="card card-1"> h
+			      <div class="card card-1">
 			        <h3>MISIÓN</h3>
 						<p>
 							La misión de APPSSTARS se focaliza en la creación y gestión de servicios TIC para acercar
