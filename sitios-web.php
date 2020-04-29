@@ -5,7 +5,9 @@
 			<div class="col-md-12">
 				<h1>EXPERTOS EN DESARROLLO WEB</h1>
 				<p>
-Diseños de paginas web, tiendas virtuales, ecommerce, paginas informativas y blog atractivos, optimizados, personalizados, ademas de ser administrables. </p>
+				   Diseños de paginas web, tiendas virtuales, ecommerce, paginas informativas y blog atractivos, 
+				   optimizados, personalizados, ademas de ser administrables.
+				</p>
 			<a href="" class="btn btn-outline-info text-center button-center">Pedir cotizacion</a>
 			</div>
 		</div>

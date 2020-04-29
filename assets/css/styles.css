@@ -1,12 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
-body{
-	font-family:sans-serif;
+
+body {
+    font-family: sans-serif;
 }
-h1{
-  color: #2e627b
+
+h1 {
+    color: #2e627b
 }
-.divider-small{
-	display: block;
+
+.divider-small {
+    display: block;
     width: 61px;
     height: 3px;
     background: #66c07a;
@@ -14,98 +17,108 @@ h1{
     margin: 0 auto 22px;
 }
 
+
 /*===========home==============*/
- .about-container .col-xs-12, .about-container .col-md-4{
-  margin:20px 0;
-  padding: 10px 15px
+
+.about-container .col-xs-12,
+.about-container .col-md-4 {
+    margin: 20px 0;
+    padding: 10px 15px
 }
-.btn-web{
-  border-radius: 50px;
-  margin: auto;
-  max-width: 120px;
-  display: block;
+
+.btn-web {
+    border-radius: 50px;
+    margin: auto;
+    max-width: 120px;
+    display: block;
 }
+
+
 /*=============== quienes somos================*/
-.section-about{
-	max-width: 100%;
-	overflow: hidden;
+
+.section-about {
+    max-width: 100%;
+    overflow: hidden;
 }
-h1{
-	margin-top: 120px
+
+h1 {
+    margin-top: 25px
 }
-#section-about{
-	margin-top: 0px;
+
+#section-about {
+    margin-top: 0px;
 }
-#section-about img{
-	display: block;
-	width: 100%
+
+#section-about img {
+    display: block;
+    width: 100%
 }
-.informacion{
-	background-color: #f3f3f3;
+
+.informacion {
+    background-color: #f3f3f3;
 }
 
 
 /*
 */
-.card{
+
+.card {
     border-radius: 4px;
     background: #fff;
-    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
-      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
-  padding: 14px 80px 18px 36px;
-  cursor: pointer;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+    padding: 14px 80px 18px 36px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    height: 600px;
 }
 
-.card:hover{
-     transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
 }
 
-.card h3{
-  font-weight: 600;
+.card h3 {
+    font-weight: 600;
 }
 
-.card img{
-  position: absolute;
-  top: 20px;
-  right: 15px;
-  max-height: 120px;
+.card .about-img {
+    margin-top: 50px;
+    position: relative;
+    width: 120%;
 }
 
-.card-1{
-  background-image: url(https://ionicframework.com/img/getting-started/ionic-native-card.png);
-      background-repeat: no-repeat;
+.card-1 {
+    padding-top: 42px;
+    background-image: url(../img/nosotros/mision.png);
+    background-repeat: no-repeat;
     background-position: right;
     background-size: 80px;
 }
 
-.card-2{
-   background-image: url(https://ionicframework.com/img/getting-started/components-card.png);
-      background-repeat: no-repeat;
+.card-3 {
+    padding-top: 18px;
+    background-image: url(../img/nosotros/historia.png);
+    background-repeat: no-repeat;
     background-position: right;
     background-size: 80px;
 }
 
-.card-3{
-   background-image: url(https://ionicframework.com/img/getting-started/theming-card.png);
-      background-repeat: no-repeat;
-    background-position: right;
-    background-size: 80px;
+@media(max-width: 990px) {
+    .card {
+        margin: 20px;
+    }
 }
-
-@media(max-width: 990px){
-  .card{
-    margin: 20px;
-  }
-} 
 
 
 /*========================= sitios web =============================*/
-.web{
-	display: block;
-	width: 100%;
-	overflow: hidden;
+
+.web {
+    display: block;
+    width: 100%;
+    overflow: hidden;
 }
+
 #sitios-web #cabecera {
     display: block;
     background: #f3f3f3;
@@ -118,57 +131,61 @@ h1{
     text-align: center;
 }
 
-#sitios-web #cabecera h1{
-  color: #fff;
-  text-align: center;
-}
-#sitios-web #cabecera p{
-  display: block;
-  max-width: 500px;
-  text-align: center;
-  margin: auto;
-  color: #fff;
-  font-size: 14px
-}
-#sitios-web #cabecera a{
-  margin: 10px 0;
-  color: #fff;
-  border:#fff 1px solid;
+#sitios-web #cabecera h1 {
+    color: #fff;
+    text-align: center;
 }
 
-#sitios-web #cabecera img{
-	display: block;
-	width: 100%;
-	margin-top: -20px
-}
-#sitios-web{
-	
-}
-#sitios-web h1{
-	font-weight: bold;
+#sitios-web #cabecera p {
+    display: block;
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    font-size: 14px
 }
 
+#sitios-web #cabecera a {
+    margin: 10px 0;
+    color: #fff;
+    border: #fff 1px solid;
+}
+
+#sitios-web #cabecera img {
+    display: block;
+    width: 100%;
+    margin-top: -20px
+}
+
+#sitios-web {}
+
+#sitios-web h1 {
+    font-weight: bold;
+}
 
 
 /**/
 
-#planes{
-	margin:100px auto 0;
-  background: #f3f3f3;
-  padding: 50px 0
+#planes {
+    margin: 100px auto 0;
+    background: #f3f3f3;
+    padding: 50px 0
 }
-#planes .container{
-  max-width: 900px;
-  display: block;
 
+#planes .container {
+    max-width: 900px;
+    display: block;
 }
-#planes h2{
-	font-weight: bold;
+
+#planes h2 {
+    font-weight: bold;
 }
-#planes .card-img img{
-	width: 100%;
-	display: block;
+
+#planes .card-img img {
+    width: 100%;
+    display: block;
 }
+
 #planes .card-content {
     border: 1px #00000029 solid;
 }
@@ -176,8 +193,9 @@ h1{
 .card-desc ul {
     list-style: circle;
 }
-#planes a.btn-card{
-	    display: block;
+
+#planes a.btn-card {
+    display: block;
     margin: auto;
     max-width: 89px;
     text-align: center;
@@ -197,72 +215,82 @@ h1{
     border: 1px #00b0a5 solid;
 }
 
-#proyectos-web{
-	padding: 60px 0;
-}
-#proyectos-web h1{
-	color:#5e92d4;
-	font-weight: bold;
-}
-#proyectos-web h1 span{
-	color:#2e627b;
-	font-weight: bold;
+#proyectos-web {
+    padding: 60px 0;
 }
 
-#cotizacion{
-  background: #f3f3f3;
-  padding: 50px 0
+#proyectos-web h1 {
+    color: #5e92d4;
+    font-weight: bold;
 }
 
-#cotizacion{
-  
+#proyectos-web h1 span {
+    color: #2e627b;
+    font-weight: bold;
 }
+
+#cotizacion {
+    background: #f3f3f3;
+    padding: 50px 0
+}
+
+#cotizacion {}
+
 #cotizacion .col-md-3 {
     padding: 0;
 }
+
 #cotizacion input {
     border-radius: 0
 }
+
 #cotizacion input:hover {
     border-radius: 0;
 }
+
 #cotizacion .container {
     max-width: 800px;
     display: block;
-    margin:auto;
+    margin: auto;
 }
 
-#tecnologia{
-  padding: 0 0 70px 0
+#tecnologia {
+    padding: 0 0 70px 0
 }
 
-#tecnologia img{
-	display: block;
-	width: 100%;
+#tecnologia img {
+    display: block;
+    width: 100%;
 }
 
-#cotizacion-partial{
-	background-color: #f3f3f3;
-	padding: 50px 0;
+#cotizacion-partial {
+    background-color: #f3f3f3;
+    padding: 50px 0;
 }
-#cotizacion-partial .form{
-	max-width: 640px;
-	margin: auto;
+
+#cotizacion-partial .form {
+    max-width: 640px;
+    margin: auto;
 }
 
 
 /*===============aplicaciones======================================*/
-#aplicaciones{
-	max-width: 100%;
-	overflow: hidden;
+
+#aplicaciones {
+    max-width: 100%;
+    overflow: hidden;
 }
-.row{
-	padding: 0;
+
+.row {
+    padding: 0;
+    width: 100%;
 }
-#aplicaciones #cabecera img{
-	display: block;
-	width: 100%;
+
+#aplicaciones #cabecera img {
+    display: block;
+    width: 100%;
 }
+
 
 /*========================contacto==========================*/
 
@@ -274,53 +302,226 @@ h1{
     background-size: contain;
     /* background: no-repeat; */
     background-attachment: fixed;
-    padding: 120px 0 0 0 
+    padding: 120px 0 0 0
 }
 
 #contacto #cabecera h1 {
-  text-align: center;
-  color: #fff;
-  font-weight: bold;
-  font-size: 60px;
-  border-bottom: 2px #fff solid;
-  max-width: 350px;
-  margin: 110px auto 0;
-
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 60px;
+    border-bottom: 2px #fff solid;
+    max-width: 350px;
+    margin: 110px auto 0;
 }
-#contacto .dato{
-  text-align: center;
-      text-align: center;
+
+#contacto .dato {
+    text-align: center;
+    text-align: center;
     background: #f3f3fe;
     padding: 34px 14px;
 }
 
-#contacto .dato .icono{
-  display: block;
-  width: 80px;
-  height: 80px;
-  border-radius: 50px;
-  margin: auto;
-  text-align: center;
-}
-#contacto .dato .icono i{
-  font-size: 50px
-}
-#datos-contacto .container{
-  max-width: 900px
+#contacto .dato .icono {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin: auto;
+    text-align: center;
 }
 
-#form-contacto{
-  background: #f0faffdb;
-  margin: 50px 0 0 0;
-  padding: 0 0 60px 0;
-  background-image: url('../img/fondo/lineas.png');
+#contacto .dato .icono i {
+    font-size: 50px
 }
 
-#form-contacto .container{
-  max-width: 800px
+#datos-contacto .container {
+    max-width: 900px
 }
-.maps iframe{
-  display: block;
-  width: 100%;
-  height: 400px
+
+#form-contacto {
+    background: #f0faffdb;
+    margin: 50px 0 0 0;
+    padding: 0 0 60px 0;
+    background-image: url('../img/fondo/lineas.png');
+}
+
+#form-contacto .container {
+    max-width: 800px
+}
+
+.maps iframe {
+    display: block;
+    width: 100%;
+    height: 400px
+}
+
+
+/*========================Nosotros==========================*/
+
+#nosotros #cabecera {
+    /* display: block;
+    background: #f3f3f3; */
+    /* min-height: 90vh; */
+    background-image: url(../img/nosotros.jpg);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-attachment: fixed;
+    background-position: center;
+    height: 550px;
+    /*
+    background-size: contain;
+    /* background: no-repeat; */
+    /* padding: 120px 0 0 0 */
+}
+
+#nosotros #cabecera:before {
+    content: "";
+    width: 100%;
+    height: 550px;
+    /* min-height: 90vh; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(#0177bb, #16205d);
+    opacity: 0.5;
+}
+
+#nosotros #cabecera h1 {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 60px;
+    border-bottom: 2px #fff solid;
+    max-width: 350px;
+    margin: 110px auto 0;
+    margin-top: 250px;
+}
+
+
+/*========================whatsapp==========================*/
+
+.appWhatsapp {
+    position: fixed;
+    right: 15px;
+    bottom: 100px;
+    width: 50px;
+    z-index: 1000;
+}
+
+.appWhatsapp #whatsapp {
+    width: 100%;
+    height: auto;
+}
+
+
+/*========================mediaQuery==========================*/
+
+@media (max-width: 2018px) {
+    .c1 {
+        /* -ms-flex: 100%; */
+        /* flex: 0 0 33.333333%; */
+        min-width: 33%;
+    }
+    .c2 {
+        /* -ms-flex: 100%; */
+        /* flex: 0 0 33.333333%; */
+        min-width: 33%;
+    }
+    .c3 {
+        /* -ms-flex: 100%; */
+        /* flex: 0 0 33.333333%; */
+        min-width: 33%;
+    }
+    .card-1 {
+        /* -ms-flex: 100%; */
+        /* flex: 0 0 33.333333%; */
+        height: 97%;
+    }
+    .card-2 {
+        /* -ms-flex: 100%; */
+        /* flex: 0 0 33.333333%; */
+        height: 97%;
+    }
+    .card-3 {
+        /* -ms-flex: 100%; */
+        /* flex: 0 0 33.333333%; */
+        height: 100%;
+    }
+}
+
+@media (max-width: 1118px) {
+    .c1 {
+        /* -ms-flex: 100%; */
+        /* flex: 0 0 33.333333%; */
+        min-width: 50%;
+    }
+    .c2 {
+        /* -ms-flex: 100%; */
+        /* flex: 0 0 33.333333%; */
+        min-width: 50%;
+    }
+    .c3 {
+        /* -ms-flex: 100%; */
+        /* flex: 0 0 33.333333%; */
+        min-width: 100%;
+        min-height: 110px;
+    }
+}
+
+@media (max-width: 992px) {
+    .c1 {
+        /* -ms-flex: 100%; */
+        /* flex: 0 0 33.333333%; */
+        min-width: 100%;
+    }
+    .c2 {
+        /* -ms-flex: 100%; */
+        /* flex: 0 0 33.333333%; */
+        min-width: 100%;
+    }
+    .c3 {
+        /* -ms-flex: 100%; */
+        /* flex: 0 0 33.333333%; */
+        min-width: 100%;
+        min-height: 110px;
+    }
+}
+
+@media (max-width: 375px) {
+    .c1 {
+        /* -ms-flex: 100%; */
+        /* flex: 0 0 33.333333%; */
+        min-width: 100%;
+    }
+    .c2 {
+        /* -ms-flex: 100%; */
+        /* flex: 0 0 33.333333%; */
+        min-width: 100%;
+    }
+    .c3 {
+        /* -ms-flex: 100%; */
+        /* flex: 0 0 33.333333%; */
+        min-width: 100%;
+        height: 250px;
+    }
+    .card-1 {
+        /* -ms-flex: 100%; */
+        /* flex: 0 0 33.333333%; */
+        height: 25%;
+    }
+    .card-2 {
+        /* -ms-flex: 100%; */
+        /* flex: 0 0 33.333333%; */
+        height: 18%;
+    }
+    .card-3 {
+        /* -ms-flex: 100%; */
+        /* flex: 0 0 33.333333%; */
+        height: 450%;
+    }
+    #info {
+        height: 550%;
+        background-color: black;
+    }
 }

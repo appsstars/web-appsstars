@@ -32,7 +32,7 @@
                 <li><a href='aplicaciones-moviles'>Aplicaciones-moviles</a></li>
             </ul>
           </li>
-          <li><a href="#services">Contacto</a></li>
+          <li><a href="contacto">Contacto</a></li>
         </ul>
       </nav>
     </div>
