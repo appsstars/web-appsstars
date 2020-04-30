@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Angular</title>
+  <title>AppsStars</title>
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="assets/template/lib/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="assets/template/css/style.css">
   <link rel="stylesheet" href="assets/css/styles.css">
+  
+
 </head>
 <body>
 
