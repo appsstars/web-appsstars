@@ -3,10 +3,6 @@
 body {
     font-family: sans-serif;
 }
-.row{
-  margin-left: 0 !important;
-  margin-right: 0 !important
-}
 
 h1 {
     color: #2e627b
@@ -131,7 +127,7 @@ h1 {
     background-size: contain;
     /* background: no-repeat; */
     background-attachment: fixed;
-    padding: 160px 0 0 0;
+    padding: 60px 0 0 0;
     text-align: center;
 }
 
@@ -353,48 +349,6 @@ h1 {
 #form-contacto .container {
     max-width: 800px
 }
-<<<<<<< HEAD
-.maps iframe{
-  display: block;
-  width: 100%;
-  height: 400px
-}
-
-/*=============================galeria =========================*/
-
-#portafolio #cabecera{
-    display: block;
-    background: #f3f3f3;
-    background-image: url(../img/banner_portafolio.jpg);
-    height: 550px;
-    background-size: contain;
-    /* background: no-repeat; */
-    background-attachment: fixed;
-    padding: 120px 0 0 0;
-    background-repeat: no-repeat;
-    text-align: center;
-}
-
-#portafolio #cabecera h1 {
-  text-align: center;
-  color: #fff;
-  font-weight: bold;
-  font-size: 60px;
-  border-bottom: 2px #fff solid;
-  max-width: 350px;
-  margin: 110px auto 0;
-}
-
-#portafolio #cabecera p {
-  text-align: center;
-  color: #fff;
-}
-
-#portafolio #cabecera a {
-  color: #fff;
-  border:1px #fff solid;
-}
-=======
 
 .maps iframe {
     display: block;
@@ -474,15 +428,16 @@ h1 {
 }
 
 .input_email {
-    margin: 12px;
-    padding: 8px;
+    margin: 15px;
+    padding: 10px;
     width: 95%;
     font-size: 18px;
+    border: none;
 }
 
 .textarea_email {
-    margin: 12px;
-    padding: 8px;
+    margin: 15px;
+    padding: 10px;
     width: 95% !important;
     font-size: 18px;
     max-height: 200px;
@@ -600,4 +555,3 @@ h1 {
         background-color: black;
     }
 }
->>>>>>> 4fac365beb1cff6dd235cf0e5fad7c7e8160eb9d

@@ -100,4 +100,5 @@
 </div>
 
 <?php require_once 'modal/nosotros_email.php'; ?>
+<?php require_once 'correo.php'; ?>
 <?php require_once 'layouts/footer.php'; ?>
