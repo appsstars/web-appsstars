@@ -22,7 +22,7 @@
 						   Tic’s en general, se está posesionando en el mercado Nacional compitiendo 
 						   con calidad, cumplimiento y responsabilidad.
 						</p>
-						<a href="" class="btn btn-outline-primary">Quiero una cotización</a>
+						<a href="" class="btn btn-outline-primary" type="button" data-toggle="modal" data-target="#email">Quiero una cotización</a>
 					</div>
 					<div class="pull-right" style="max-width: 500px">
 						<h1 class="text-primary"><b>Nuestros Valores</b></h1>
@@ -99,5 +99,5 @@
 	</div>
 </div>
 
-	
+<?php require_once 'modal/nosotros_email.php'; ?>
 <?php require_once 'layouts/footer.php'; ?>

@@ -415,6 +415,35 @@ h1 {
 }
 
 
+/*========================ModalCotizacion==========================*/
+
+.modal-content {
+    background-color: #17a2b8;
+    width: 1700px;
+}
+
+.form_email {
+    width: 100%;
+    margin: auto;
+}
+
+.input_email {
+    margin: 12px;
+    padding: 8px;
+    width: 95%;
+    font-size: 18px;
+}
+
+.textarea_email {
+    margin: 12px;
+    padding: 8px;
+    width: 95% !important;
+    font-size: 18px;
+    max-height: 200px;
+    min-height: 80px;
+}
+
+
 /*========================mediaQuery==========================*/
 
 @media (max-width: 2018px) {
