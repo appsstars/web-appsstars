@@ -47,7 +47,7 @@
             </form>
           </div>
           <div class="col-lg-2 col-md-6 footer-links">
-            <img src="assets/img/imagenes/logo.png" alt="" style="width: 250px">
+            <img src="assets/img/logo_blanco.png" alt="" style="width: 250px">
           </div>
 
         </div>
@@ -83,12 +83,8 @@
 
   <!-- Template Main JS File -->
   <script src="assets/template/js/main.js"></script>
-
-<<<<<<< HEAD
   <script>if( window.self == window.top ) { (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','../../../../www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-55234356-4', 'auto'); ga('send', 'pageview'); } </script>
 </body>
 
 </html>
-=======
-  <script>if( window.self == window.top ) { (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-55234356-4', 'auto'); ga('send', 'pageview'); } </script>
->>>>>>> 4fac365beb1cff6dd235cf0e5fad7c7e8160eb9d
+
