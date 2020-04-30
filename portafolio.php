@@ -1,168 +1,91 @@
-<?php require_once 'layouts/header.php'; ?>
-<div class="contenido" id="sitios-web">
-  <div class="web">
 
-    <div class="row" id="cabecera">
+<?php require_once 'layouts/header.php'; ?>
+<style>
+    .classy-navbar {
+        padding: 0;
+        top: 0;
+        margin: -29px 0 0 0;
+    }
+</style>
+
+<div class="contenido" id="portafolio">
+  <div class="row" id="cabecera">
       <div class="col-md-12">
-        <h1>EXPERTOS EN DESARROLLO WEB</h1>
+        <h1>PORTAFOLIO</h1>
         <p>
-Diseños de paginas web, tiendas virtuales, ecommerce, paginas informativas y blog atractivos, optimizados, personalizados, ademas de ser administrables. </p>
+          Estamos a la vanguardia de las tendencias para brindar las mejores soluciones a tus proyectos digitales.
+        </p>
       <a href="" class="btn btn-outline-info text-center button-center">Pedir cotizacion</a>
       </div>
     </div>
 
-    <section id="portfolio" class="clearfix">
-      <div class="container">
 
-        <header class="section-header">
-          <h3 class="section-title">Our Portfolio</h3>
-        </header>
+  <section class="portafolio">
+    <div class="galeria">
+        <div class="contenedor">
+                <header>
+                    <?php 
+                        //imprimir nombres de etiquetas categoria
+                        $albums = scandir('assets/img/portafolio');
+                        unset($albums[0]); 
+                        unset($albums[1]);
+                     ?>
+                    <div class="categorias" id="categorias">
+                        <a href="#" class="activo">Todos</a>
+                        <?php 
+                            foreach ($albums as $key => $value) { ?>
+                                <a href="#"><?php echo $value; ?></a>
+                            <?php } ?>
+                    </div>
+                </header>
 
-        <div class="row">
-          <div class="col-lg-12">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="">All</li>
-              <li data-filter=".filter-app" class="filter-active">App</li>
-              <li data-filter=".filter-card" class="">Card</li>
-              <li data-filter=".filter-web" class="">Web</li>
-            </ul>
-          </div>
-        </div>
 
-        <div class="row portfolio-container" style="position: relative; height: 476.125px;">
+            <section class="grid" id="grid">
+                <?php 
+                    //impresion de items segun el albuns
+                    foreach ($albums as $key => $value) { ?>
+                            <?php 
+                                    //fotos del albun
+                                    $fotos = scandir('assets/img/portafolio/'.$value);
+                                    unset($fotos[0]); 
+                                    unset($fotos[1]);
+                                    foreach ($fotos as $key => $foto) { ?>
+                                        <div class="item" 
+                                             data-categoria="<?php echo $value; ?>"
+                                             data-etiquetas=""
+                                             data-descripcion="">
+                                            <div class="item-contenido">
+                                                <img src="assets/img/portafolio/<?php echo $value; ?>/<?php echo $foto; ?>" alt="">
+                                            </div>
+                                        </div>
+                                    <?php  } ?>
+                             
+                    <?php } ?>
+                                        
+            </section>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 0px; top: 0px;">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/app1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">App 1</a></h4>
-                <p>App</p>
-                <div>
-                  <a href="assets/img/portfolio/app1.jpg" data-gall="portfolioGallery" title="App 1" class="venobox link-preview vbox-item"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+            <section class="overlay" id="overlay">
+                <div class="contenedor-img">
+                    <button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+                    <img src="" alt="">
                 </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s" style="position: absolute; left: 0px; top: 0px; display: none;">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/web3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">Web 3</a></h4>
-                <p>Web</p>
-                <div>
-                  <a href="assets/img/portfolio/web3.jpg" class="venobox link-preview vbox-item" data-gall="portfolioGallery" title="Web 3"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s" style="position: absolute; left: 319.984px; top: 0px;">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/app2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">App 2</a></h4>
-                <p>App</p>
-                <div>
-                  <a href="assets/img/portfolio/app2.jpg" class="venobox link-preview vbox-item" data-gall="portfolioGallery" title="App 2"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card" style="position: absolute; left: 0px; top: 0px; display: none;">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/card2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">Card 2</a></h4>
-                <p>Card</p>
-                <div>
-                  <a href="assets/img/portfolio/card2.jpg" class="venobox link-preview vbox-item" data-gall="portfolioGallery" title="Card 2"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s" style="position: absolute; left: 380px; top: 0px; display: none;">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/web2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">Web 2</a></h4>
-                <p>Web</p>
-                <div>
-                  <a href="assets/img/portfolio/web2.jpg" class="venobox link-preview vbox-item" data-gall="portfolioGallery" title="Web 2"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s" style="position: absolute; left: 639.968px; top: 0px;">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/app3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">App 3</a></h4>
-                <p>App</p>
-                <div>
-                  <a href="assets/img/portfolio/app3.jpg" class="venobox link-preview vbox-item" data-gall="portfolioGallery" title="App 3"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card" style="position: absolute; left: 380px; top: 0px; display: none;">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/card1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">Card 1</a></h4>
-                <p>Card</p>
-                <div>
-                  <a href="assets/img/portfolio/card1.jpg" class="venobox link-preview vbox-item" data-gall="portfolioGallery" title="Card 1"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card" data-wow-delay="0.1s" style="position: absolute; left: 760px; top: 0px; display: none;">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/card3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">Card 3</a></h4>
-                <p>Card</p>
-                <div>
-                  <a href="assets/img/portfolio/card3.jpg" class="venobox link-preview vbox-item" data-gall="portfolioGallery" title="Card 3"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.2s" style="position: absolute; left: 760px; top: 0px; display: none;">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/web1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">Web 1</a></h4>
-                <p>Web</p>
-                <div>
-                  <a href="assets/img/portfolio/web1.jpg" class="venobox link-preview vbox-item" data-gall="portfolioGallery" title="Web 1"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
+                <p class="descripcion"></p>
+            </section>
 
         </div>
-
       </div>
-    </section>
-  </div>
+  </section>
+      
 </div>
 
 
-<?php require 'layouts/footer.php'; ?>
+
+<?php require_once 'layouts/footer.php'; ?>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+<link rel="stylesheet" href="assets/css/estilos-galeria.css">
+
+
+    <script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+    <script src="assets/js/main.js"></script>

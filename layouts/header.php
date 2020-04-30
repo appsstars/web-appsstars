@@ -24,14 +24,15 @@
 
       <nav class="main-nav float-right d-none d-lg-block">
         <ul>
-          <li [routerLinkActive]="['active']"><a href='./'>Inicio</a></li>
-          <li [routerLinkActive]="['active']"><a href='nosotros'>Nosotros</a></li>
+          <li><a href='./'>Inicio</a></li>
+          <li><a href='nosotros'>Nosotros</a></li>
           <li class="drop-down"><a style="cursor: pointer;">Servicios</a>
             <ul>
                <li><a href='sitios-web'>Sitios Web</a></li>
                 <li><a href='aplicaciones-moviles'>Aplicaciones-moviles</a></li>
             </ul>
           </li>
+          <li ><a href='portafolio'>portafolio</a></li>
           <li><a href="contacto">Contacto</a></li>
         </ul>
       </nav>

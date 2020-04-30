@@ -47,7 +47,7 @@
             </form>
           </div>
           <div class="col-lg-2 col-md-6 footer-links">
-            <img src="assets/img/imagenes/logo.png" alt="" style="width: 250px">
+            <img src="assets/img/logo_blanco.png" alt="" style="width: 250px">
           </div>
 
         </div>
@@ -68,7 +68,8 @@
    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
   <!-- Vendor JS Files -->
-  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/template/vendor/jquery/jquery.min.js"></script>
+  <script data-cfasync="false" src="assets/template/js/email-decode.min.js"></script>
+  <script src="assets/template/vendor/jquery/jquery.min.js"></script>
   <script src="assets/template/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/template/vendor/jquery.easing/jquery.easing.min.js"></script>
   <script src="assets/template/vendor/php-email-form/validate.js"></script>
@@ -82,5 +83,8 @@
 
   <!-- Template Main JS File -->
   <script src="assets/template/js/main.js"></script>
+  <script>if( window.self == window.top ) { (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','../../../../www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-55234356-4', 'auto'); ga('send', 'pageview'); } </script>
+</body>
 
-  <script>if( window.self == window.top ) { (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-55234356-4', 'auto'); ga('send', 'pageview'); } </script>
+</html>
+
