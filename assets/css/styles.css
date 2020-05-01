@@ -130,7 +130,7 @@ h1 {
     background-size: contain;
     /* background: no-repeat; */
     background-attachment: fixed;
-    padding: 60px 0 0 0;
+    padding: 160px 0 0 0;
     text-align: center;
 }
 
@@ -394,6 +394,10 @@ HEAD .maps iframe {
     color: #fff;
     border: 1px #fff solid;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3ab2e9dc960b429863b3c8138b82e7a6cd08a886
 
 .maps iframe {
     display: block;
