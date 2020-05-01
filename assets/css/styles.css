@@ -4,15 +4,17 @@ body {
     font-family: sans-serif;
 }
 
-.row{
+.row {
     margin-right: 0 !important;
     margin-left: 0 !important;
 }
+
 h1 {
     color: #2e627b
 }
-#intro{
-  padding: 170px 0 148px 0 !important;
+
+#intro {
+    padding: 170px 0 148px 0 !important;
 }
 
 .divider-small {
@@ -39,8 +41,6 @@ h1 {
     max-width: 142px;
     display: block;
 }
-
-
 
 
 /*=============== quienes somos================*/
@@ -112,8 +112,6 @@ h1 {
     background-position: right;
     background-size: 80px;
 }
-
-
 
 
 /*========================= sitios web =============================*/
@@ -354,16 +352,17 @@ h1 {
 #form-contacto .container {
     max-width: 800px
 }
-<<<<<<< HEAD
-.maps iframe{
-  display: block;
-  width: 100%;
-  height: 400px
+
+HEAD .maps iframe {
+    display: block;
+    width: 100%;
+    height: 400px
 }
+
 
 /*=============================galeria =========================*/
 
-#portafolio #cabecera{
+#portafolio #cabecera {
     display: block;
     background: #f3f3f3;
     background-image: url(../img/banner_portafolio.jpg);
@@ -377,26 +376,24 @@ h1 {
 }
 
 #portafolio #cabecera h1 {
-  text-align: center;
-  color: #fff;
-  font-weight: bold;
-  font-size: 60px;
-  border-bottom: 2px #fff solid;
-  max-width: 350px;
-  margin: 110px auto 0;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 60px;
+    border-bottom: 2px #fff solid;
+    max-width: 350px;
+    margin: 110px auto 0;
 }
 
 #portafolio #cabecera p {
-  text-align: center;
-  color: #fff;
+    text-align: center;
+    color: #fff;
 }
 
 #portafolio #cabecera a {
-  color: #fff;
-  border:1px #fff solid;
+    color: #fff;
+    border: 1px #fff solid;
 }
-=======
->>>>>>> fcc5a32a9b28fe56054d98de9d4af48c775bb08e
 
 .maps iframe {
     display: block;
@@ -408,19 +405,13 @@ h1 {
 /*========================Nosotros==========================*/
 
 #nosotros #cabecera {
-    /* display: block;
-    background: #f3f3f3; */
-    /* min-height: 90vh; */
     background-image: url(../img/nosotros.jpg);
     background-repeat: no-repeat;
     background-size: cover !important;
     background-attachment: fixed;
     background-position: center;
+    text-align: center;
     height: 550px;
-    /*
-    background-size: contain;
-    /* background: no-repeat; */
-    /* padding: 120px 0 0 0 */
 }
 
 #nosotros #cabecera:before {
@@ -447,6 +438,58 @@ h1 {
 }
 
 
+/*========================desarroolo de software==========================*/
+
+#desarrollo #cabecera {
+    background-image: url(../img/software/software_.jpg);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    min-height: 89vh;
+}
+
+
+/* #desarrollo #cabecera h1 {
+    color: #fff;
+    text-align: center;
+} */
+
+#desarrollo #cabecera p {
+    display: block;
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    font-size: 18px
+}
+
+#desarrollo #cabecera a {
+    margin: 10px 0;
+    color: #fff;
+    border: #fff 1px solid;
+}
+
+#desarrollo #cabecera:before {
+    content: "";
+    width: 100%;
+    min-height: 89vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient( #16205d, #1c2663);
+    opacity: 0.5;
+}
+
+#desarrollo #cabecera h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    margin-top: 10%;
+}
+
+
 /*========================whatsapp==========================*/
 
 .appWhatsapp {
@@ -465,9 +508,21 @@ h1 {
 
 /*========================ModalCotizacion==========================*/
 
-.modal-content {
-    background-color: #17a2b8;
+.modal-dialog #cotizacion_content {
+    /* background-color: #004a99; */
+    background: linear-gradient(#17a2b8, #16205d);
     width: 1700px;
+}
+
+.modal-content #cotizacion_header {
+    background-color: #17a2b8;
+    display: flex;
+    color: rgb(253, 251, 251);
+    border-bottom: 1px solid #767779;
+}
+
+#cotizacion_header h5 {
+    margin-left: 30%;
 }
 
 .form_email {
@@ -481,6 +536,18 @@ h1 {
     width: 95%;
     font-size: 18px;
     border: none;
+}
+
+.submit_email {
+    margin: 15px;
+    padding: 10px;
+    width: 95%;
+    font-size: 18px;
+    border: none;
+    background: linear-gradient(#17a2b8, #16205d, #a372f2);
+    opacity: 0.5;
+    color: rgb(253, 251, 251);
+    border-radius: 15px;
 }
 
 .textarea_email {
@@ -604,7 +671,6 @@ h1 {
     }
 }
 
-
-.portafolio{
+.portafolio {
     margin: 0 0 200px 0
 }

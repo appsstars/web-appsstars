@@ -12,12 +12,7 @@
   <link rel="stylesheet" href="assets/template/lib/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="assets/template/css/style.css">
   <link rel="stylesheet" href="assets/css/styles.css">
-<<<<<<< HEAD
   <link rel="stylesheet" href="assets/css/responsive.css">
-=======
-  
-
->>>>>>> fcc5a32a9b28fe56054d98de9d4af48c775bb08e
 </head>
 <body>
 
@@ -35,7 +30,7 @@
           <li class="drop-down"><a style="cursor: pointer;">Servicios</a>
             <ul>
                <li><a href='sitios-web'>Sitios Web</a></li>
-                <li><a href='aplicaciones-moviles'>Aplicaciones-moviles</a></li>
+                <li><a href='desarrollo_software'>Desarrollo Software</a></li>
             </ul>
           </li>
           <li ><a href='portafolio'>portafolio</a></li>
