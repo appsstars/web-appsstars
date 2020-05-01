@@ -22,16 +22,16 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4><a href="contacto" style="color: white">Contactanos</a></h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              Calle 5 # 5b - 45 <br>
+              Tunja, Boyaca<br>
+              Colombia <br>
+              <strong>Telefono:</strong> +57 313 2490883<br>
+              <strong>Correo:</strong> info@appsstars.com.co<br>
             </p>
 
             <div class="social-links">
               <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100041618928690" class="facebook" target="_blanck"><i class="fa fa-facebook"></i></a>
               <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
               <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
               <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
@@ -40,8 +40,11 @@
           </div>
 
           <div class="col-lg-3 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+            <h4>NUESTRO BOLETÍN</h4>
+            <p>
+              Deja tu correo! te enviaremos un catalogo con nuestros productos, asi conoceras a detalle lo que te ofrecemos,
+              estamos para darte la mejor atencion.
+            </p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
