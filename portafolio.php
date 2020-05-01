@@ -24,6 +24,9 @@
     <div class="galeria">
         <div class="contenedor">
                 <header>
+                    <form action="">
+                    <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+                </form>
                     <?php 
                         //imprimir nombres de etiquetas categoria
                         $albums = scandir('assets/img/portafolio');
@@ -31,7 +34,7 @@
                         unset($albums[1]);
                      ?>
                     <div class="categorias" id="categorias">
-                        <a href="#" class="activo">Todos</a>
+                        <a href="#" class="activo">All</a>
                         <?php 
                             foreach ($albums as $key => $value) { ?>
                                 <a href="#"><?php echo $value; ?></a>

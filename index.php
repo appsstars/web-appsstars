@@ -19,7 +19,7 @@
         </div>
       </section><!-- #intro -->
 
-      <main id="main">
+      <main id="main" class="inicio">
 
         <!--==========================
           About Us Section
@@ -54,7 +54,7 @@
                 <div class="card">
                   <img src="assets/img/banner/banner_small_visual.jpg" class="card-img-top" alt="paginas web y sitios crm plataformas en tunja" title="paginas web en tunja">
                       <div class="card-body">
-                        <h5 class="card-title text-center">Producción Audiovisual</h5>
+                        <h5 class="card-title text-center">Desarrollo de software</h5>
                         <a href="#" class="btn btn-outline-success btn-web">VER PLANES</a>
                       </div>
                   </div>
