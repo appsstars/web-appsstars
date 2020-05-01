@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="assets/template/lib/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="assets/template/css/style.css">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
 

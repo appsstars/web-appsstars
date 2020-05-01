@@ -1,7 +1,7 @@
 <?php require_once 'layouts/header.php'; ?>
 
 <div class="contenido">
-  <section id="intro" class="clearfix" style="background:url(assets/img/intro-bg.png) center bottom no-repeat" >
+  <section id="intro" class="clearfix" style="background:url(assets/img/inicio/banner_inicio.jpg) center bottom no-repeat" >
         <div class="container">
 
           <div class="intro-img">
