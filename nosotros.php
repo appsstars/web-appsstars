@@ -50,7 +50,7 @@
 						<h1 class="text-center text-info"><b>AGENCIA</b></h1>
 					</div>
 			   		 <div class=" c1 col-md-4">
-			      		<div class="card card-1">
+			      		<div class="cards c-1">
 			       			 <h3>MISIÓN</h3>
 							<p>
 								La misión de <b>AppsStars</b> se focaliza en la creación y gestión de servicios TIC para acercar
@@ -63,7 +63,7 @@
 				  		</div>				  
 			    	</div>
 			    	<div class="c2 col-md-4 ">
-			      		<div class="card card-2">
+			      		<div class="cards c-2">
 			        		<h3>VISION</h3>
 							<p>
 								Ser un referente en el mercado nacional en el sector de las TIC y 
@@ -78,7 +78,7 @@
 			     		 </div>
 			    	</div>
 			    	<div class="c3 col-md-4">
-			      		<div class="card card-3">
+			      		<div class="cards c-3">
 			        		<h3>HISTORIA</h3>
 							<p>
 								La empresa tuvo inicios en octubre del 2018 como un pequeño proyecto de un grupo de desarrolladores, 
