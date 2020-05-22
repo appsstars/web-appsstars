@@ -1,6 +1,6 @@
 .contenedor {
 	width: 100%;
-	max-width: 1000px;
+	max-width: 1300px;
 	margin: auto;
 }
 
@@ -170,4 +170,6 @@ header .categorias a.activo {
 	}
 }
 
-#grid
+section.portafolio {
+    margin: 0 0 133px 0;
+}
