@@ -35,7 +35,7 @@
                   <img src="./assets/img/banner/banner_small_web.jpg" class="card-img-top" alt="paginas web y sitios crm plataformas en tunja" title="paginas web en tunja">
                       <div class="card-body">
                         <h5 class="card-title text-center">Sitios Web</h5>
-                        <a href="#" class="btn btn-outline-success btn-web">VER PLANES</a>
+                        <a href="sitios-web" class="btn btn-outline-success btn-web">VER PLANES</a>
                       </div>
                   </div>
               </div>

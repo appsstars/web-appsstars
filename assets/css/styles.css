@@ -57,12 +57,12 @@ h1 {
 #sitios-web #cabecera {
     display: block;
     background: #f3f3f3;
-    background-image: url(../img/banner_sitios_web.png);
-    height: 505px;
+    background-image: url(../img/banner_sitios_web.jpg);
+    height: 605px;
     background-size: contain;
     /* background: no-repeat; */
     background-attachment: fixed;
-    padding: 160px 0 0 0;
+    padding: 190px 0 0 0;
     text-align: center;
 }
 
@@ -339,10 +339,8 @@ HEAD .maps iframe {
 #nosotros #cabecera {
     background-image: url(../img/nosotros.jpg);
     background-repeat: no-repeat;
-    background-size: cover !important;
-    background-attachment: fixed;
+    background-size: 100% 100%;
     background-position: center;
-    text-align: center;
     height: 550px;
 }
 
@@ -379,7 +377,8 @@ h1 {
 }
 
 #section-about {
-    margin-top: 0px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .informacion {
@@ -423,6 +422,14 @@ h1 {
     background-repeat: no-repeat;
     background-position: right;
     background-size: 80px;
+}
+
+#img-nosotros {
+    display: block;
+    margin: auto;
+    width: 100% !important;
+    /* height: 500px; */
+    margin-top: 20%;
 }
 
 

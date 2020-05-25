@@ -37,8 +37,8 @@
 					</div>
 					
 				</div>
-				<div class="col-xs-12 col-md-6">
-					<img src="assets/img/about1.jpg" class="img-responsive">
+				<div class="col-xs-12 col-md-12 col-lg-6" style="border-left: 1px #17a2b8 solid;border-right: 1px #17a2b8 solid;border-bottom: 1px #17a2b8 solid; border-radius:15px">
+					<img id="img-nosotros" src="assets/img/nosotros/1.0.jpg" >
 				</div>
 			</div>
 		</div>

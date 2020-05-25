@@ -50,7 +50,7 @@
             </form>
           </div>
           <div class="col-lg-2 col-md-6 footer-links">
-            <img src="assets/img/logo_blanco.png" alt="" style="width: 250px">
+            <img src="assets/img/nosotros/logoSolo.png" alt="" style="width: 250px">
           </div>
 
         </div>

@@ -20,7 +20,7 @@
 <header id="header" class="fixed-top">
     <div class="container">
       <div class="logo float-left">
-        <a href="#intro" class="scrollto"><img src="../assets/img/imagenes/logo.jpg" alt="" class=""></a>
+        <a href="#intro" class="scrollto"><img src="../assets/img/nosotros/logoNew.png" alt="" class=""></a>
       </div>
 
       <nav class="main-nav float-right d-none d-lg-block">
