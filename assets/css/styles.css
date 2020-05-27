@@ -230,14 +230,14 @@ h1 {
 /*========================contacto==========================*/
 
 #contacto #cabecera {
-    display: block;
-    background: #f3f3f3;
     background-image: url(../img/banner_contacto.jpg);
     height: 505px;
-    background-size: contain;
-    /* background: no-repeat; */
     background-attachment: fixed;
-    padding: 120px 0 0 0
+    padding: 120px 0 0 0;
+    background-repeat: no-repeat;
+    display: block;
+    background-position: top;
+    height: 550px;
 }
 
 #contacto #cabecera h1 {
@@ -338,9 +338,12 @@ HEAD .maps iframe {
 
 #nosotros #cabecera {
     background-image: url(../img/nosotros.jpg);
+    background-size: 80% 550px;
+    display: block;
+    padding: 120px 0 0 0;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
+    background-position: top;
+    background-attachment: fixed;
     height: 550px;
 }
 
@@ -352,7 +355,7 @@ HEAD .maps iframe {
     position: absolute;
     top: 0;
     left: 0;
-    background: linear-gradient(#0177bb, #16205d);
+    background: linear-gradient(#008df7, #058af5);
     opacity: 0.5;
 }
 
@@ -409,19 +412,19 @@ h1 {
 
 #nosotros .c-1 {
     padding-top: 18px;
-    background-image: url(../img/nosotros/mision.png);
+    background-image: url(../img/nosotros/mision1.png);
     background-repeat: no-repeat;
-    background-position: right;
-    background-size: 80px;
+    background-position: bottom;
+    background-size: 30%;
     height: 95%;
 }
 
 #nosotros .c-3 {
     padding-top: 18px;
-    background-image: url(../img/nosotros/historia.png);
+    background-image: url(../img/nosotros/historia1.png);
     background-repeat: no-repeat;
-    background-position: right;
-    background-size: 80px;
+    background-position: bottom;
+    background-size: 30%;
 }
 
 #img-nosotros {

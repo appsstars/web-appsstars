@@ -52,7 +52,7 @@
 			   		 <div class=" c1 col-md-4">
 			      		<div class="cards c-1">
 			       			 <h3>MISIÓN</h3>
-							<p>
+							<p style="color: #000000">
 								La misión de <b>AppsStars</b> se focaliza en la creación y gestión de servicios TIC para acercar
 								la tecnología y la innovación a las empresas para acelerar y automatizar sus procesos. 
 								Transformar digitalmente y hacer más accesibles los procesos tecnológicos a todas las personas. 
@@ -65,7 +65,7 @@
 			    	<div class="c2 col-md-4 ">
 			      		<div class="cards c-2">
 			        		<h3>VISION</h3>
-							<p>
+							<p style="color: #000000">
 								Ser un referente en el mercado nacional en el sector de las TIC y 
 								llevarla a ser una empresa tecnológica referente en la transformación digital, 
 								innovadora y líder en nuestro sector. Seguir ofreciendo soluciones globales, 
@@ -80,7 +80,7 @@
 			    	<div class="c3 col-md-4">
 			      		<div class="cards c-3">
 			        		<h3>HISTORIA</h3>
-							<p>
+							<p style="color: #000000">
 								La empresa tuvo inicios en octubre del 2018 como un pequeño proyecto de un grupo de desarrolladores, 
 								el cual ha tuvo un crecimiento significativo, gracias a la oportunidad que se ha tenido de implementar 
 								varios proyectos en diferentes empresas, y así se decido consolidar formalmente en <b>AppsStars S.A.S</b>, 

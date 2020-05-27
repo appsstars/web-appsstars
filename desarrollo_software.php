@@ -14,3 +14,5 @@
 		</div>
 	</section>
 </div>
+
+<?php require_once 'layouts/footer.php'; ?>
