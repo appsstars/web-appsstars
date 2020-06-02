@@ -1,23 +1,30 @@
 <?php require_once 'layouts/header.php'; ?>
 
 <div class="contenido">
-  <section id="intro" class="clearfix" style="background:url(assets/img/inicio/banner_inicio.jpg) center bottom no-repeat" >
-        <div class="container">
-
-          <div class="intro-img">
-            <img src="assets/img/intro-img.svg" alt="" class="img-fluid">
+    <section id="intro">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
           </div>
-
-          <div class="intro-info">
-            <h2>Apps Stars<br><small>Soluciones efectivas a tu medida</small></h2>
-            <div>
-              <a [routerLink]='["/contacto"]' class="btn-get-started scrollto">Contáctenos</a>
-              <a [routerLink]='["/servicios"]' class="btn-services scrollto">Asesoria</a>
-            </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
           </div>
-
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
         </div>
-      </section><!-- #intro -->
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+    
 
       <main id="main" class="inicio">
 
