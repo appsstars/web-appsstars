@@ -159,13 +159,18 @@ h6 {
 }
 
 #header .logo img {
-    padding: 0;
     margin: 7px 0;
-    max-height: 46px;
+    max-height: 80px;
+    margin: -18px 0 0 0;
 }
 
 .main-pages {
     margin-top: 60px;
+}
+
+a.btn.btn-outline-blank {
+    border: 1px #fff solid;
+    color: #fff;
 }
 
 
@@ -238,7 +243,27 @@ h6 {
     color: #fff;
 }
 
+#banner-inicio {
+    margin: -35px 0 0 0;
+}
 
+#banner-inicio .content{
+    padding: 140px 0 190px 0
+}
+
+#banner-inicio h1{
+    color: #fff;
+    font-size: 60px
+}
+
+#banner-inicio .subtitulo{
+    color: #fff;
+    max-width: 450px
+}
+.icon img {
+    margin: 3px 0 0 14px;
+    max-width: 60px;
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -484,6 +509,8 @@ h6 {
 
 .section-bg {
     background: #ecf5ff;
+    background-image: url('../../img/inicio/banner_fondo.jpg');
+    background-size: contain;
 }
 
 

@@ -20,7 +20,7 @@
 <header id="header" class="fixed-top">
     <div class="container">
       <div class="logo float-left">
-        <a href="#intro" class="scrollto"><img src="../assets/img/nosotros/logoNew.png" alt="" class=""></a>
+        <a href="#intro"><img src="../assets/img/logo.png" alt="" class=""></a>
       </div>
 
       <nav class="main-nav float-right d-none d-lg-block">
@@ -30,7 +30,6 @@
           <li class="drop-down"><a style="cursor: pointer;">Servicios</a>
             <ul>
                <li><a href='sitios-web'>Sitios Web</a></li>
-                <li><a href='desarrollo_software'>Desarrollo Software</a></li>
             </ul>
           </li>
           <li ><a href='portafolio'>portafolio</a></li>
