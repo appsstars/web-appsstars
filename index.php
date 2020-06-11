@@ -10,7 +10,7 @@
               <div class="content">
                   <h1 class="titulo">!Diseño web profesional¡</h1>
                   <p class="subtitulo">
-                    Diseño páginas web profesionales y económica, 'Conoce como podemos realizar el desarrollo de tu sitio. Contamos con páginas web administrables, responsivas y de fácil accesibilidad para dispositivos móviles.
+                    Diseño de páginas web profesionales y económica, 'Conoce como podemos realizar el desarrollo de tu sitio. Contamos con páginas web administrables, responsivas y de fácil accesibilidad para dispositivos móviles.
                   </p>
                   <div class="accion">
                     <a href="https://wa.link/04lgxi" target="_blank" class="btn btn-outline-blank">Información</a>
